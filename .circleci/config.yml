@@ -1,0 +1,22 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cypress/browsers:chrome69
+        environment:
+          TERM: xterm
+    working_directory: ~/app  
+    steps:
+      - checkout
+      - run: npm ci
+      - persist_to_workspace:
+          root: ~/
+          paths:
+            - app
+      - run: ./node_modules/.bin/cypress run --browser chrome cypress/integration --reporter junit --reporter-options "mochaFile=results/test-output.xml"
+      - store_test_results:
+          path: results
+      - store_artifacts:
+          path: cypress/videos
+      - store_artifacts:
+          path: cypress/screenshots
