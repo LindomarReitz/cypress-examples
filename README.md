@@ -6,6 +6,13 @@ This project is a sample using Cypress on [BlazeMeter demo site](http://demo.bla
 
 # setup
 
+Run using docker compose:
+
+```bash
+docker-compose up -c
+docker-compose exec cypress bash
+```
+
 Install the dependencies:
 
 ```bash
