@@ -9,7 +9,7 @@ This project is a sample using Cypress on [BlazeMeter demo site](http://demo.bla
 Run using docker compose:
 
 ```bash
-docker-compose up -c
+docker-compose up -d
 docker-compose exec cypress bash
 ```
 
