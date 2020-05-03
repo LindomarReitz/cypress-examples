@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/LindomarReitz/cypress-examples.svg?style=svg)](https://circleci.com/gh/LindomarReitz/cypress-examples)
+[![CircleCI](https://circleci.com/gh/LindomarReitz/cypress-examples.svg?style=svg)](https://circleci.com/gh/LindomarReitz/cypress-examples) [![Maintainability](https://api.codeclimate.com/v1/badges/7ecf82411e590a0e78e9/maintainability)](https://codeclimate.com/github/LindomarReitz/cypress-examples/maintainability)
 
 # cypress-examples
 
