@@ -19,6 +19,6 @@ import './commands'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 
-Cypress.on('uncaught:exception', (err, runnable) => {
-    return false
-})
+Cypress.on('uncaught:exception', function(err, runnable) {
+    return false;
+});
