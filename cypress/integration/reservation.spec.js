@@ -12,7 +12,7 @@ var faker = require('faker')
 
 context('Simple Travel Agency', () => {
     beforeEach(() => {
-        navigate("http://demo.blazemeter.com")
+        navigate("https://blazedemo.com/");
     })
 
     it("reserves a flight", () => {
